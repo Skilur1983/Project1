@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo ("Be the best");
+        echo ("Be the very best");
         ?>
     </body>
 </html>
