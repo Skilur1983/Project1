@@ -18,7 +18,7 @@ class dogPHP {
     public $dogHeight;
     public function bark($howManyTimes) {
         for($i=0; $i<$howManyTimes; $i++){
-        echo "woof!";
+        echo "Woof!";
         echo '<br />';
         }
     }
