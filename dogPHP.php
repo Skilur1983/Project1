@@ -12,15 +12,21 @@
  * @author dmitry
  */
 
-
 class dogPHP {
     public $dogName;
+    
     public $dogHeight;
+    
     public function bark($howManyTimes) {
         for($i=0; $i<$howManyTimes; $i++){
         echo "Woof!";
         echo '<br />';
         }
+    }
+    
+    public function whoBarks(){
+        echo $this->dogName." barked";
+        echo '<br />';
     }
 }
 
@@ -28,3 +34,6 @@ $bigDog = new dogPHP();
 $bigDog->dogName = "Valt";
 $bigDog->dogHeight = 5;
 $bigDog->bark(3);
+$bigDog->whoBarks();
+
+var_dump($bigDog);
